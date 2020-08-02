@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>introduction-maven-gswm-nexus</groupId>
+	<artifactId>introduction-maven-gswm-nexus</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>introduction-maven-gswm-nexus</name>
+	<description>introduction-maven-gswm-nexus</description>
+
+	<distributionManagement>
+		<repository>
+			<id>nexusReleases</id>
+			<name>Releases</name>
+			<url>http://localhost:8081/repository/maven-releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexusSnapshots</id>
+			<name>Snapshots</name>
+			<url>http://localhost:8081/repository/maven-snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+	<build>
+		<!-- Content removed for brevity -->
+	</build>
+</project>
