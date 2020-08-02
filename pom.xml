@@ -7,6 +7,15 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>introduction-maven-gswm-nexus</name>
 	<description>introduction-maven-gswm-nexus</description>
+	<!-- Content removed for brevity -->
+	<scm>
+		<connection>scm:git:https://github.com/initTest/nexus_maven_test.git</connection>
+		<developerConnection>scm:git:https://github.com/initTest/nexus_maven_test.git</developerConnection>
+		<url>https://github.com/initTest/nexus_maven_test.git</url>
+	</scm>
+	<!-- Content removed for brevity -->
+
+
 
 	<distributionManagement>
 		<repository>
